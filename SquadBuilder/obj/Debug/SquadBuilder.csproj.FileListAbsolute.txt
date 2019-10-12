@@ -1,0 +1,7 @@
+C:\Users\deniz\Desktop\Other\schooljaar 2019-20\Software engineering\SquadBuilder\SquadBuilder\bin\Debug\SquadBuilder.exe.config
+C:\Users\deniz\Desktop\Other\schooljaar 2019-20\Software engineering\SquadBuilder\SquadBuilder\bin\Debug\SquadBuilder.exe
+C:\Users\deniz\Desktop\Other\schooljaar 2019-20\Software engineering\SquadBuilder\SquadBuilder\bin\Debug\SquadBuilder.pdb
+C:\Users\deniz\Desktop\Other\schooljaar 2019-20\Software engineering\SquadBuilder\SquadBuilder\obj\Debug\SquadBuilder.csprojAssemblyReference.cache
+C:\Users\deniz\Desktop\Other\schooljaar 2019-20\Software engineering\SquadBuilder\SquadBuilder\obj\Debug\SquadBuilder.csproj.CoreCompileInputs.cache
+C:\Users\deniz\Desktop\Other\schooljaar 2019-20\Software engineering\SquadBuilder\SquadBuilder\obj\Debug\SquadBuilder.exe
+C:\Users\deniz\Desktop\Other\schooljaar 2019-20\Software engineering\SquadBuilder\SquadBuilder\obj\Debug\SquadBuilder.pdb
