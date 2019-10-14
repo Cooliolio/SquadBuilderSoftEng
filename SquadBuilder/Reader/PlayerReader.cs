@@ -17,15 +17,34 @@ namespace SquadBuilder.Reader
         {
             try
             {   // Open the text file using a stream reader.
-                using (StreamReader sr = new StreamReader("C:/Users/deniz/Desktop/Other/schooljaar 2019-20/Software engineering/SquadBuilder/SquadBuilder/Reader/epldata_final.txt"))
+                using (StreamReader sr = new StreamReader("C:\\Users\\Yasin Yavuz\\Source\\Repos\\SquadBuilder\\SquadBuilder\\Reader\\epldata_final.txt"))
                 {
                     // Read the stream to a string, and write the string to the console.
                     String line = sr.ReadLine();
+                    Player player;
                     while ((line = sr.ReadLine()) != null)
                     {
                         string[] array = line.Split(',');
-                        Player player = new Player(array[0], array[1], int.Parse(array[2]), array[3]);
-                        players.Add(player);
+                        if (array[3] == "RB" || array[3] == "LB" || array[3] == "CB")
+                        {
+                            player = new Player(array[0], array[1].Replace('+' , ' '), int.Parse(array[2]), "Defender");
+                            players.Add(player);
+                        }
+                        if (array[3] == "AM" || array[3] == "CM" || array[3] == "LM" || array[3] == "RM")
+                        {
+                            player = new Player(array[0], array[1].Replace('+', ' '), int.Parse(array[2]), "Midfielder");
+                            players.Add(player);
+                        }
+                        if (array[3] == "CF" || array[3] == "LW" || array[3] == "RW")
+                        {
+                            player = new Player(array[0], array[1].Replace('+', ' '), int.Parse(array[2]), "Attacker");
+                            players.Add(player);
+                        }
+                        if (array[3] == "GK")
+                        {
+                            player = new Player(array[0], array[1].Replace('+', ' '), int.Parse(array[2]), "Goalkeeper");
+                            players.Add(player);
+                        }
                     }
                 }
             }

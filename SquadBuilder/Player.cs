@@ -20,5 +20,6 @@ namespace SquadBuilder
             this.Age = age;
             this.Position = position;
         }
+
     }
 }
